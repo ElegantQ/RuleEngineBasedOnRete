@@ -1,0 +1,11 @@
+{
+  "deviceInstances":
+  [
+    {
+      "id": "1",
+      "name": "rule",
+      "model": "rule"
+    }
+  ],
+  "deviceModels":[]
+}

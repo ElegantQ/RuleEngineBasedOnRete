@@ -1,0 +1,34 @@
+{
+  "name": "rulesaction",
+  "type": "flogo:action",
+  "version": "0.0.1",
+  "title": "Rules Action",
+  "description": "Simple Rules Action",
+  "homepage": "https://github.com/project-flogo/rules/ruleaction",
+  "async": false,
+  "settings": [
+    {
+      "name": "ruleSessionURI",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "tupleDescriptorFile",
+      "type": "string"
+    },
+    {
+      "name": "tds",
+      "type": "object"
+    }
+  ],
+  "input":  [
+    {
+      "name": "tupletype",
+      "type": "string"
+    },
+    {
+      "name": "values",
+      "type": "string"
+    }
+  ]
+}
